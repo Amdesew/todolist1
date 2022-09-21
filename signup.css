@@ -1,0 +1,86 @@
+.center{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.list{
+    margin-left: 20px;
+}
+
+div{
+    width: 500px;
+    height: 600px;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    border-radius: 30px;
+}
+
+h1{
+    font-size: 35px; 
+    font-family: arial;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+input{
+    height: 40px;
+    width: 380px;
+    border-radius: 20px;
+    border-color: lightcyan;
+    box-shadow: 1px 2px 1px  lightcyan;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    margin-left: -260px;
+}
+
+p:hover{
+    color:aqua;
+}
+
+button{
+    width: 290px;
+    height: 43px;
+    border-radius: 50px;
+    border-color: lightseagreen;
+    background: linear-gradient(0deg,
+    rgba(3,255,40,0.4430199430199431) 1%, rgba(34,193,195,1) 78%);
+    box-shadow: 2px 3px 10px gray;
+}
+
+label{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+label:hover{
+    color: aqua;
+}
+
+select{
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+option{
+    font-size: 16px;
+    font-family: arial;
+}
+
+body{
+    background-size: cover;
+    background-image: url('background.jpg');
+}
